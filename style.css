@@ -1,16 +1,73 @@
 /* Type your code here */
+body {
+	background-image: url("/assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
 
+.logo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+p#text {
+	font-weight: 100;
+	color: red;
+	font-size: medium;
+	​
+}
+
+.basic {
+	background-color: red;
+	color: whitesmoke;
+}
+
+.change {
+	color: green;
+}
+
+table th,
+td {
+	border: 1px black;
+}
+
+table {
+	background-color: whitesmoke;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border: solid;
+	border-width: 1px 0;
+}
+
+#logo {
+	display: flex;
+	justify-content: right;
+}
+
+.center {
+	justify-content: center;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
+}
+
+#logo {
+	justify-content: right;
 }
